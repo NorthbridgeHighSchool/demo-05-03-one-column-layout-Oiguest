@@ -1,0 +1,27 @@
+body {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  margin: 0;
+}
+header {
+background-color: rgb(146, 170, 180);
+grid-column: 1/2;
+}
+nav {
+background-color: rgb(235, 198, 156);
+grid-column: 2/3;
+}
+article {
+background-color: rgb(232, 233, 190);
+grid-column: 1/3;
+}
+footer {
+background-color: rgb(236, 192, 207);
+grid-column: 1/3;
+}
+nav ul {
+  display: flex; 
+  list-style-type: none;
+  justify-content: flex-end; 
+}
